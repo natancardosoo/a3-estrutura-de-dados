@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProjetoChamadosTI_atualizado:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProjetoChamadosTI_atualizado_jar</output-path>
+    <root id="archive" name="ProjetoChamadosTI_atualizado.jar">
+      <element id="module-output" name="ProjetoChamadosTI_atualizado" />
+    </root>
+  </artifact>
+</component>

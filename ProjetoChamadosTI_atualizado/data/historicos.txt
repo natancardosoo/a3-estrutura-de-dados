@@ -1,0 +1,24 @@
+1;24/05/2026 20:49:19;Solicitante;Chamado criado com status Aberto
+2;24/05/2026 20:54:41;Solicitante;Chamado criado com status Aberto
+1;24/05/2026 20:55:28;Administrador;Chamado assumido. Status alterado para Em Atendimento
+1;24/05/2026 21:19:07;Administrador;Chamado finalizado
+2;24/05/2026 21:19:24;Administrador;Chamado assumido. Status alterado para Em Atendimento
+2;24/05/2026 21:23:54;Administrador;Chamado finalizado
+2;24/05/2026 21:23:57;Administrador;Chamado finalizado
+2;24/05/2026 21:24:00;Administrador;Chamado finalizado
+2;24/05/2026 21:24:03;Administrador;Dados do atendimento atualizados
+2;24/05/2026 21:24:06;Administrador;Chamado finalizado
+2;24/05/2026 21:24:07;Administrador;Chamado finalizado
+2;24/05/2026 21:24:17;Administrador;Chamado finalizado
+3;24/05/2026 21:26:36;Solicitante;Chamado criado com status Aberto
+3;24/05/2026 21:26:47;Administrador;Dados do atendimento atualizados
+3;24/05/2026 21:26:55;Administrador;Dados do atendimento atualizados
+3;24/05/2026 21:27:02;Administrador;Dados do atendimento atualizados
+3;24/05/2026 21:27:10;Administrador;Chamado assumido. Status alterado para Em Atendimento
+3;24/05/2026 21:27:21;Administrador;Dados do atendimento atualizados
+3;24/05/2026 21:27:31;Administrador;Dados do atendimento atualizados
+3;24/05/2026 21:29:19;Administrador;Chamado finalizado
+3;24/05/2026 21:29:22;Administrador;Dados do atendimento atualizados
+4;24/05/2026 21:32:03;Solicitante;Chamado criado com status Aberto
+4;24/05/2026 21:32:13;Administrador;Chamado assumido. Status alterado para Em Atendimento
+4;24/05/2026 21:32:37;Administrador;Chamado finalizado

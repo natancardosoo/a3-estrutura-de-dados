@@ -1,0 +1,4 @@
+1;erro ao processar pedido;Sistema de Estoque;ao inserir o pedido da erro;Solicitante;24/05/2026 20:49:19;Administrador;14/02/2026;nao;2.0;Finalizado
+2;estou com um problema;Sistema Financeiro;watawt;Solicitante;24/05/2026 20:54:41;Administrador;10/02/2026;wataw;0.0;Finalizado
+3;awtawt;Sistema Financeiro;awtawtwa;Solicitante;24/05/2026 21:26:36;Administrador;24/05/2026;weat;0.0;Finalizado
+4;chamadoo;Sistema de Estoque;estoque;Solicitante;24/05/2026 21:32:03;Administrador;24/05/2026;solucionado;2.0;Finalizado

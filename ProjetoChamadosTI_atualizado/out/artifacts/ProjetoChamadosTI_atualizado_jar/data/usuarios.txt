@@ -1,0 +1,2 @@
+Administrador;admin;admin;ADMINISTRADOR
+Victor;victor;123;SOLICITANTE
