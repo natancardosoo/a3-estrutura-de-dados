@@ -15,7 +15,7 @@ Projeto acadêmico em Java para simular atendimento de chamados de suporte técn
 Entre na pasta do projeto e rode:
 
 ```bash
-java -jar SistemaChamadosTI.jar
+java -jar ProjetoChamadosTI_atualizado.jar
 ```
 
 ## Arquivos locais
