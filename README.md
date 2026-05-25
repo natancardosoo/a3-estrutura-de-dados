@@ -5,7 +5,7 @@ Projeto acadêmico em Java para simular atendimento de chamados de suporte técn
 ## Logins iniciais
 
 - Administrador: `admin` / `admin`
-- Solicitante: `victor` / `123`
+- Solicitante: `solicitante` / `solicitante`
 
 ## Como executar pelo terminal
 
