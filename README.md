@@ -2,6 +2,9 @@
 
 Projeto acadêmico em Java para simular atendimento de chamados de suporte técnico.
 
+## Pré-requisitos
+- É necessário possuir o Java SDK instalado no computador.
+
 ## Logins iniciais
 
 - Administrador: `admin` / `admin`
@@ -12,12 +15,8 @@ Projeto acadêmico em Java para simular atendimento de chamados de suporte técn
 Entre na pasta do projeto e rode:
 
 ```bash
-javac -encoding UTF-8 -d out $(find src -name "*.java")
-jar cfe SistemaChamadosTI.jar br.com.faculdade.chamados.Main -C out .
 java -jar SistemaChamadosTI.jar
 ```
-
-No Windows PowerShell, se o comando `find` não funcionar, compile pelo NetBeans, Eclipse ou IntelliJ.
 
 ## Arquivos locais
 
