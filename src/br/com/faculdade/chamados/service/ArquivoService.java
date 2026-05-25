@@ -29,7 +29,7 @@ public class ArquivoService {
                 USUARIOS.createNewFile();
                 List<Usuario> usuariosPadrao = new ArrayList<>();
                 usuariosPadrao.add(new Usuario("Administrador", "admin", "admin", "ADMINISTRADOR"));
-                usuariosPadrao.add(new Usuario("Victor", "victor", "123", "SOLICITANTE"));
+                usuariosPadrao.add(new Usuario("Solicitante", "solicitante", "solicitante", "SOLICITANTE"));
                 salvarUsuarios(usuariosPadrao);
             }
             if (!APLICATIVOS.exists()) {
