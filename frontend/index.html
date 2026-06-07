@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplicativo de Chamados</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       TELA LOGIN
+  ════════════════════════════════════════════ -->
+  <div id="tela-login" class="tela ativa">
+    <div class="login-fundo">
+      <div class="login-card">
+
+        <div class="login-logo">
+          <div class="login-logo-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                 fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8M12 17v4"/>
+              <path d="M6 8h4M6 11h8"/>
+            </svg>
+          </div>
+        </div>
+
+        <p class="login-app-nome">Aplicativo de Chamados</p>
+        <p class="login-app-sub">Sistema de Suporte Técnico de Informática</p>
+
+        <div class="login-titulo-row">
+          <span class="login-barra"></span>
+          <span class="login-titulo">Acesso ao Sistema</span>
+        </div>
+
+        <label class="campo-label">Login</label>
+        <div class="campo-wrapper">
+          <span class="campo-icone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                 fill="none" stroke="#4E7022" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </span>
+          <input type="text" id="inp-login" placeholder="Seu usuário" autocomplete="off" />
+        </div>
+
+        <label class="campo-label" style="margin-top:18px">Senha</label>
+        <div class="campo-wrapper">
+          <span class="campo-icone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                 fill="none" stroke="#4E7022" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </span>
+          <input type="password" id="inp-senha" placeholder="Sua senha" autocomplete="off" />
+        </div>
+
+        <button class="btn-primary btn-entrar" id="btn-entrar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/>
+            <polyline points="10 17 15 12 10 7"/>
+            <line x1="15" y1="12" x2="3" y2="12"/>
+          </svg>
+          Entrar
+        </button>
+
+        <div class="login-divisor">credenciais de demo</div>
+
+        <div class="login-dica">
+          <b>admin / admin</b> &nbsp;·&nbsp; <b>solicitante / solicitante</b>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       TELA ADMINISTRADOR
+  ════════════════════════════════════════════ -->
+  <div id="tela-admin" class="tela">
+    <div class="app-layout">
+      <header class="app-header">
+        <div class="header-esquerda">
+          <div class="header-logo-mini">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                 fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <span class="header-titulo">Aplicativo de Chamados</span>
+        </div>
+        <div class="header-direita">
+          <span class="header-usuario" id="admin-nome-header"></span>
+          <span class="badge-perfil">Administrador</span>
+          <button class="btn-header-deslogar" id="btn-admin-deslogar">Sair</button>
+        </div>
+      </header>
+
+      <main class="app-main">
+        <div class="page-header">
+          <div>
+            <h1 class="page-titulo">Gerenciamento de Chamados</h1>
+            <p class="page-sub">Visualize e gerencie todos os chamados do sistema</p>
+          </div>
+          <button class="btn-primary btn-sm" id="btn-admin-atualizar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
+              <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+            </svg>
+            Atualizar
+          </button>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-row" id="admin-stats">
+          <div class="stat-card">
+            <div class="stat-icone total">📋</div>
+            <div class="stat-info">
+              <div class="stat-num" id="stat-total">0</div>
+              <div class="stat-label">Total</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icone aberto">🔔</div>
+            <div class="stat-info">
+              <div class="stat-num" id="stat-aberto">0</div>
+              <div class="stat-label">Abertos</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icone atend">⚙️</div>
+            <div class="stat-info">
+              <div class="stat-num" id="stat-atend">0</div>
+              <div class="stat-label">Em Atendimento</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icone final">✅</div>
+            <div class="stat-info">
+              <div class="stat-num" id="stat-final">0</div>
+              <div class="stat-label">Finalizados</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="filtros-row">
+          <input type="text" class="inp-filtro" id="admin-filtro"
+                 placeholder="🔍  Buscar por título, solicitante ou status..." />
+          <select class="sel-filtro" id="admin-filtro-status">
+            <option value="">Todos os status</option>
+            <option value="Aberto">Aberto</option>
+            <option value="Em Atendimento">Em Atendimento</option>
+            <option value="Finalizado">Finalizado</option>
+            <option value="Cancelado">Cancelado</option>
+          </select>
+        </div>
+
+        <div class="card-tabela">
+          <table class="tabela">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Solicitante</th>
+                <th>Data Solicitação</th>
+                <th>Atendente</th>
+                <th>Previsão</th>
+                <th>Status</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+            <tbody id="admin-tbody"></tbody>
+          </table>
+          <div class="tabela-vazia" id="admin-vazia" style="display:none">
+            <div class="tabela-vazia-icone">📭</div>
+            Nenhum chamado encontrado.
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       TELA SOLICITANTE
+  ════════════════════════════════════════════ -->
+  <div id="tela-solicitante" class="tela">
+    <div class="app-layout">
+      <header class="app-header">
+        <div class="header-esquerda">
+          <div class="header-logo-mini">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                 fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <span class="header-titulo">Aplicativo de Chamados</span>
+        </div>
+        <div class="header-direita">
+          <span class="header-usuario" id="sol-nome-header"></span>
+          <span class="badge-perfil badge-sol">Solicitante</span>
+          <button class="btn-header-deslogar" id="btn-sol-deslogar">Sair</button>
+        </div>
+      </header>
+
+      <div class="abas-nav">
+        <button class="aba-btn ativa" data-aba="solicitar">Nova Solicitação</button>
+        <button class="aba-btn" data-aba="meus-chamados">Meus Chamados</button>
+      </div>
+
+      <main class="app-main">
+
+        <!-- Aba: Solicitar -->
+        <div id="painel-solicitar" class="painel-aba ativo">
+          <div class="page-header">
+            <div>
+              <p class="breadcrumb">Início / Nova Solicitação</p>
+              <h1 class="page-titulo">Novo Chamado</h1>
+              <p class="page-sub">Preencha as informações para abrir um pedido de suporte</p>
+            </div>
+          </div>
+
+          <div class="card-form">
+            <p class="card-form-titulo">Detalhes do Chamado</p>
+            <p class="card-form-sub">Descreva o problema com o máximo de detalhes possível.</p>
+
+            <div class="form-row">
+              <label class="form-label">Solicitante</label>
+              <input type="text" class="form-input" id="sol-solicitante" readonly />
+            </div>
+            <div class="form-row">
+              <label class="form-label">Título do problema</label>
+              <input type="text" class="form-input" id="sol-titulo"
+                     placeholder="Ex: Erro ao processar pedido no estoque" />
+            </div>
+            <div class="form-row">
+              <label class="form-label">Aplicativo</label>
+              <select class="form-input" id="sol-aplicativo">
+                <option value="">Selecione o aplicativo...</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label class="form-label">Descrição</label>
+              <textarea class="form-input form-textarea" id="sol-descricao"
+                        placeholder="Descreva o problema detalhadamente..."></textarea>
+            </div>
+            <div class="form-botoes">
+              <button class="btn-secondary" id="btn-sol-deslogar2">Sair</button>
+              <button class="btn-primary" id="btn-enviar-chamado">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                     fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"/>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                </svg>
+                Enviar Solicitação
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aba: Meus Chamados -->
+        <div id="painel-meus-chamados" class="painel-aba">
+          <div class="page-header">
+            <div>
+              <h1 class="page-titulo">Meus Chamados</h1>
+              <p class="page-sub">Acompanhe o status dos seus chamados</p>
+            </div>
+            <button class="btn-primary btn-sm" id="btn-sol-atualizar">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"
+                   fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
+                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+              </svg>
+              Atualizar
+            </button>
+          </div>
+
+          <div class="card-tabela">
+            <table class="tabela">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Título</th>
+                  <th>Data Solicitação</th>
+                  <th>Atendente</th>
+                  <th>Previsão</th>
+                  <th>Status</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody id="sol-tbody"></tbody>
+            </table>
+            <div class="tabela-vazia" id="sol-vazia" style="display:none">
+              <div class="tabela-vazia-icone">📭</div>
+              Você ainda não possui chamados abertos.
+            </div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       MODAL DETALHE DO CHAMADO
+  ════════════════════════════════════════════ -->
+  <div id="modal-overlay" class="modal-overlay" style="display:none">
+    <div class="modal-card">
+
+      <div class="modal-header">
+        <h2 class="modal-titulo" id="modal-titulo">Detalhes do Chamado</h2>
+        <button class="modal-fechar" id="modal-fechar">&times;</button>
+      </div>
+
+      <div class="modal-abas">
+        <button class="aba-btn ativa" data-modal-aba="dados" id="modal-aba-dados">Dados do Chamado</button>
+        <button class="aba-btn" data-modal-aba="historico" id="modal-aba-historico">Histórico</button>
+      </div>
+
+      <!-- Painel: Dados -->
+      <div id="modal-painel-dados" class="modal-painel ativo">
+        <div class="modal-grid">
+          <div class="detalhe-row">
+            <span class="detalhe-label">ID</span>
+            <span class="detalhe-valor" id="det-id"></span>
+          </div>
+          <div class="detalhe-row">
+            <span class="detalhe-label">Status</span>
+            <span class="detalhe-valor" id="det-status-badge"></span>
+          </div>
+          <div class="detalhe-row">
+            <span class="detalhe-label">Título</span>
+            <span class="detalhe-valor" id="det-titulo"></span>
+          </div>
+          <div class="detalhe-row">
+            <span class="detalhe-label">Aplicativo</span>
+            <span class="detalhe-valor" id="det-aplicativo"></span>
+          </div>
+          <div class="detalhe-row">
+            <span class="detalhe-label">Solicitante</span>
+            <span class="detalhe-valor" id="det-solicitante"></span>
+          </div>
+          <div class="detalhe-row">
+            <span class="detalhe-label">Data da Solicitação</span>
+            <span class="detalhe-valor" id="det-data-sol"></span>
+          </div>
+          <div class="detalhe-row detalhe-row-full">
+            <span class="detalhe-label">Descrição</span>
+            <textarea class="form-input form-textarea" id="det-descricao" readonly></textarea>
+          </div>
+          <div class="detalhe-row">
+            <span class="detalhe-label">Atendente</span>
+            <input type="text" class="form-input" id="det-atendente" placeholder="Nome do atendente" />
+          </div>
+          <div class="detalhe-row">
+            <span class="detalhe-label">Data Prevista</span>
+            <input type="text" class="form-input" id="det-data-prevista"
+                   placeholder="dd/mm/aaaa" maxlength="10" />
+          </div>
+          <div class="detalhe-row detalhe-row-full">
+            <span class="detalhe-label">Solução</span>
+            <textarea class="form-input form-textarea" id="det-solucao"
+                      placeholder="Descreva a solução aplicada..."></textarea>
+          </div>
+          <div class="detalhe-row">
+            <span class="detalhe-label">Horas Gastas</span>
+            <input type="number" class="form-input" id="det-horas" step="0.5" min="0"
+                   placeholder="Ex: 2.5" />
+          </div>
+        </div>
+
+        <!-- Botões admin -->
+        <div class="modal-botoes" id="modal-botoes-admin">
+          <button class="btn-secondary" id="btn-det-fechar">Fechar</button>
+          <button class="btn-danger"    id="btn-det-cancelar">Cancelar Chamado</button>
+          <button class="btn-outline"   id="btn-det-atuar">Atuar no Chamado</button>
+          <button class="btn-secondary" id="btn-det-salvar">Salvar</button>
+          <button class="btn-primary"   id="btn-det-finalizar">Finalizar</button>
+        </div>
+
+        <!-- Botões solicitante -->
+        <div class="modal-botoes" id="modal-botoes-sol" style="display:none">
+          <button class="btn-secondary" id="btn-det-fechar-sol">Fechar</button>
+          <button class="btn-danger"    id="btn-det-cancelar-sol">Cancelar Chamado</button>
+        </div>
+      </div>
+
+      <!-- Painel: Histórico -->
+      <div id="modal-painel-historico" class="modal-painel">
+        <div class="historico-lista" id="historico-lista"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       MODAL MENSAGEM
+  ════════════════════════════════════════════ -->
+  <div id="msg-overlay" class="modal-overlay" style="display:none">
+    <div class="msg-card">
+      <div class="msg-icone-wrapper" id="msg-icone-wrapper">
+        <span id="msg-icone"></span>
+      </div>
+      <h3 class="msg-titulo" id="msg-titulo"></h3>
+      <p class="msg-texto"   id="msg-texto"></p>
+      <button class="btn-primary btn-msg-ok" id="btn-msg-ok">OK</button>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

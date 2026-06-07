@@ -71,6 +71,7 @@ public class ChamadoService {
             salvarTudo();
             reconstruirEstruturas();
         }
+        // Se cancelado ou finalizado, não faz nada (retorna silenciosamente)
     }
 
     public void salvarDadosAtendimento(int id, String atendente, String dataPrevista, String solucao, double horas, Usuario usuario) {
@@ -95,6 +96,16 @@ public class ChamadoService {
             c.setHorasGastas(horas);
             c.setStatus("Finalizado");
             registrarHistorico(id, usuario.getNome(), "Chamado finalizado");
+            salvarTudo();
+            reconstruirEstruturas();
+        }
+    }
+
+    public void cancelarChamado(int id, Usuario usuario) {
+        Chamado c = buscarPorId(id);
+        if (c != null && !"Finalizado".equalsIgnoreCase(c.getStatus()) && !"Cancelado".equalsIgnoreCase(c.getStatus())) {
+            c.setStatus("Cancelado");
+            registrarHistorico(id, usuario.getNome(), "Chamado cancelado pelo usuário");
             salvarTudo();
             reconstruirEstruturas();
         }
