@@ -35,24 +35,34 @@ Interface web moderna rodando no navegador, com backend Java embutido.
 
 ### Como rodar
 
-**Windows — clique duplo** no arquivo:
-```
-backend/rodar.bat
+**Passo 1 — Iniciar o servidor**
+
+Abra o PowerShell e cole:
+
+```powershell
+Start-Process "c:\Users\PICHAU\meu-projeto-a3\a3-estrutura-de-dados\backend\rodar.bat"
 ```
 
-**Ou pelo terminal:**
-```bash
-cd backend
-rodar.bat
-```
+Ou simplesmente dê **duplo clique** no arquivo `backend/rodar.bat` pelo Explorador de Arquivos do Windows.
 
-Aguarde a mensagem:
+> ⚠️ Não rode `rodar.bat` diretamente no PowerShell — use o `Start-Process` acima ou o duplo clique.
+
+**Passo 2 — Aguardar o servidor subir**
+
+Na janela CMD que abriu, espere aparecer:
 ```
 Servidor rodando em http://localhost:8080
 ```
 
-Em seguida, abra o arquivo `frontend/index.html` no navegador.
+**Passo 3 — Abrir o frontend**
 
+Abra o arquivo `frontend/index.html` no navegador (duplo clique ou arraste para o Chrome/Edge).
+
+**Passo 4 — Fazer login**
+
+Use `admin / admin` ou `solicitante / solicitante`.
+
+> Para parar o servidor, feche a janela CMD ou pressione `Ctrl+C` nela.
 > O servidor usa apenas o JDK padrão (`com.sun.net.httpserver`), sem dependências externas.
 
 ---
