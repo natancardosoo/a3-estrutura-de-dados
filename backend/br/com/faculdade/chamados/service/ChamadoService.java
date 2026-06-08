@@ -111,9 +111,15 @@ public class ChamadoService {
         }
     }
 
-    public List<Historico> historicoDoChamado(int chamadoId) {
+    public Historico[] historicoDoChamado(int chamadoId) {
         PilhaHistorico pilha = new PilhaHistorico();
-        for (Historico h : historicos) if (h.getChamadoId() == chamadoId) pilha.empilhar(h);
+
+        for (Historico h : historicos) {
+            if (h.getChamadoId() == chamadoId) {
+                pilha.empilhar(h);
+            }
+        }
+
         return pilha.listarMaisRecentePrimeiro();
     }
 

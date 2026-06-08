@@ -6,7 +6,6 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
 import java.io.IOException;
-import java.util.List;
 
 /**
  * GET /api/historico/{id}  → retorna histórico do chamado em JSON
@@ -38,11 +37,11 @@ public class HistoricoHandler implements HttpHandler {
 
         try {
             int id = Integer.parseInt(resto.substring(1));
-            List<Historico> historicos = service.historicoDoChamado(id);
+            Historico[] historicos = service.historicoDoChamado(id);
 
             StringBuilder sb = new StringBuilder("[");
-            for (int i = 0; i < historicos.size(); i++) {
-                Historico h = historicos.get(i);
+            for (int i = 0; i < historicos.length; i++) {
+                Historico h = historicos[i];
                 if (i > 0) sb.append(",");
                 sb.append(String.format(
                     "{\"chamadoId\":%d,\"dataHora\":\"%s\",\"usuario\":\"%s\",\"acao\":\"%s\"}",

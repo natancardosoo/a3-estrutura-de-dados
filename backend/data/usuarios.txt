@@ -1,0 +1,2 @@
+Administrador;admin;admin;ADMINISTRADOR
+Solicitante;solicitante;solicitante;SOLICITANTE
