@@ -1,7 +1,7 @@
 # Como rodar o servidor web
 
 ## Pré-requisitos
-- Java instalado (o mesmo que já roda o projeto .jar)
+- Java instalado.
 
 ## Passo a passo
 
