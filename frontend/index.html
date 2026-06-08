@@ -79,8 +79,8 @@
   </div>
 
   <!-- ═══════════════════════════════════════════
-       TELA ADMINISTRADOR
-  ════════════════════════════════════════════ -->
+     TELA ADMINISTRADOR
+════════════════════════════════════════════ -->
   <div id="tela-admin" class="tela">
     <div class="app-layout">
       <header class="app-header">
@@ -107,17 +107,12 @@
             <h1 class="page-titulo">Gerenciamento de Chamados</h1>
             <p class="page-sub">Visualize e gerencie todos os chamados do sistema</p>
           </div>
+
           <button class="btn-primary btn-sm" id="btn-admin-atualizar">
-            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"
-                 fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
-              <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
-            </svg>
             Atualizar
           </button>
         </div>
 
-        <!-- Stats -->
         <div class="stats-row" id="admin-stats">
           <div class="stat-card">
             <div class="stat-icone total">📋</div>
@@ -126,6 +121,7 @@
               <div class="stat-label">Total</div>
             </div>
           </div>
+
           <div class="stat-card">
             <div class="stat-icone aberto">🔔</div>
             <div class="stat-info">
@@ -133,6 +129,7 @@
               <div class="stat-label">Abertos</div>
             </div>
           </div>
+
           <div class="stat-card">
             <div class="stat-icone atend">⚙️</div>
             <div class="stat-info">
@@ -140,6 +137,7 @@
               <div class="stat-label">Em Atendimento</div>
             </div>
           </div>
+
           <div class="stat-card">
             <div class="stat-icone final">✅</div>
             <div class="stat-info">
@@ -150,8 +148,21 @@
         </div>
 
         <div class="filtros-row">
-          <input type="text" class="inp-filtro" id="admin-filtro"
-                 placeholder="🔍  Buscar por título, solicitante ou status..." />
+          <input
+                  type="number"
+                  class="inp-filtro filtro-id"
+                  id="admin-filtro-id"
+                  placeholder="🔍 ID"
+                  min="1"
+          />
+
+          <input
+                  type="text"
+                  class="inp-filtro"
+                  id="admin-filtro"
+                  placeholder="Buscar por título, solicitante ou status..."
+          />
+
           <select class="sel-filtro" id="admin-filtro-status">
             <option value="">Todos os status</option>
             <option value="Aberto">Aberto</option>
@@ -164,19 +175,20 @@
         <div class="card-tabela">
           <table class="tabela">
             <thead>
-              <tr>
-                <th>ID</th>
-                <th>Título</th>
-                <th>Solicitante</th>
-                <th>Data Solicitação</th>
-                <th>Atendente</th>
-                <th>Previsão</th>
-                <th>Status</th>
-                <th>Ações</th>
-              </tr>
+            <tr>
+              <th>ID</th>
+              <th>Título</th>
+              <th>Solicitante</th>
+              <th>Data Solicitação</th>
+              <th>Atendente</th>
+              <th>Previsão</th>
+              <th>Status</th>
+              <th>Ações</th>
+            </tr>
             </thead>
             <tbody id="admin-tbody"></tbody>
           </table>
+
           <div class="tabela-vazia" id="admin-vazia" style="display:none">
             <div class="tabela-vazia-icone">📭</div>
             Nenhum chamado encontrado.

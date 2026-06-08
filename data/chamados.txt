@@ -1,4 +1,50 @@
-1;erro ao processar pedido;Sistema de Estoque;ao inserir o pedido da erro;Solicitante;24/05/2026 20:49:19;Administrador;14/02/2026;nao;2.0;Finalizado
-2;estou com um problema;Sistema Financeiro;watawt;Solicitante;24/05/2026 20:54:41;Administrador;10/02/2026;wataw;0.0;Finalizado
-3;awtawt;Sistema Financeiro;awtawtwa;Solicitante;24/05/2026 21:26:36;Administrador;24/05/2026;weat;0.0;Finalizado
-4;chamadoo;Sistema de Estoque;estoque;Solicitante;24/05/2026 21:32:03;Administrador;24/05/2026;solucionado;2.0;Finalizado
+1;Chamado 1 - Sistema de Estoque;Sistema de Estoque;Problema reportado no sistema de estoque.;Solicitante;01/06/2026 10:00:00;;;;0.0;Aberto
+2;Chamado 2 - Sistema Financeiro;Sistema Financeiro;Problema reportado no sistema financeiro.;Solicitante;01/06/2026 12:00:00;;;;0.0;Aberto
+3;Chamado 3 - E-mail Corporativo;E-mail Corporativo;Problema reportado no e-mail corporativo.;Solicitante;01/06/2026 14:00:00;;;;0.0;Aberto
+4;Chamado 4 - Impressora;Impressora;Problema reportado no impressora.;Solicitante;01/06/2026 16:00:00;;;;0.0;Aberto
+5;Chamado 5 - Internet/Rede;Internet/Rede;Problema reportado no internet/rede.;Solicitante;01/06/2026 18:00:00;;;;0.0;Aberto
+6;Chamado 6 - Computador/Notebook;Computador/Notebook;Problema reportado no computador/notebook.;Solicitante;01/06/2026 20:00:00;;;;0.0;Aberto
+7;Chamado 7 - Outro;Outro;Problema reportado no outro.;Solicitante;01/06/2026 22:00:00;;;;0.0;Aberto
+8;Chamado 8 - Sistema de Estoque;Sistema de Estoque;Problema reportado no sistema de estoque.;Solicitante;02/06/2026 00:00:00;;;;0.0;Aberto
+9;Chamado 9 - Sistema Financeiro;Sistema Financeiro;Problema reportado no sistema financeiro.;Solicitante;02/06/2026 02:00:00;;;;0.0;Aberto
+10;Chamado 10 - E-mail Corporativo;E-mail Corporativo;Problema reportado no e-mail corporativo.;Solicitante;02/06/2026 04:00:00;;;;0.0;Aberto
+11;Chamado 11 - Impressora;Impressora;Problema reportado no impressora.;Solicitante;02/06/2026 06:00:00;;;;0.0;Aberto
+12;Chamado 12 - Internet/Rede;Internet/Rede;Problema reportado no internet/rede.;Solicitante;02/06/2026 08:00:00;;;;0.0;Aberto
+13;Chamado 13 - Computador/Notebook;Computador/Notebook;Problema reportado no computador/notebook.;Solicitante;02/06/2026 10:00:00;;;;0.0;Aberto
+14;Chamado 14 - Outro;Outro;Problema reportado no outro.;Solicitante;02/06/2026 12:00:00;;;;0.0;Aberto
+15;Chamado 15 - Sistema de Estoque;Sistema de Estoque;Problema reportado no sistema de estoque.;Solicitante;02/06/2026 14:00:00;;;;0.0;Aberto
+16;Chamado 16 - Sistema Financeiro;Sistema Financeiro;Problema reportado no sistema financeiro.;Solicitante;02/06/2026 16:00:00;Administrador;05/06/2026;;1.5;Em Atendimento
+17;Chamado 17 - E-mail Corporativo;E-mail Corporativo;Problema reportado no e-mail corporativo.;Solicitante;02/06/2026 18:00:00;Administrador;05/06/2026;;2.5;Em Atendimento
+18;Chamado 18 - Impressora;Impressora;Problema reportado no impressora.;Solicitante;02/06/2026 20:00:00;Administrador;05/06/2026;;3.5;Em Atendimento
+19;Chamado 19 - Internet/Rede;Internet/Rede;Problema reportado no internet/rede.;Solicitante;02/06/2026 22:00:00;Administrador;05/06/2026;;4.5;Em Atendimento
+20;Chamado 20 - Computador/Notebook;Computador/Notebook;Problema reportado no computador/notebook.;Solicitante;03/06/2026 00:00:00;Administrador;06/06/2026;;0.5;Em Atendimento
+21;Chamado 21 - Outro;Outro;Problema reportado no outro.;Solicitante;03/06/2026 02:00:00;Administrador;06/06/2026;;1.5;Em Atendimento
+22;Chamado 22 - Sistema de Estoque;Sistema de Estoque;Problema reportado no sistema de estoque.;Solicitante;03/06/2026 04:00:00;Administrador;06/06/2026;;2.5;Em Atendimento
+23;Chamado 23 - Sistema Financeiro;Sistema Financeiro;Problema reportado no sistema financeiro.;Solicitante;03/06/2026 06:00:00;Administrador;06/06/2026;;3.5;Em Atendimento
+24;Chamado 24 - E-mail Corporativo;E-mail Corporativo;Problema reportado no e-mail corporativo.;Solicitante;03/06/2026 08:00:00;Administrador;06/06/2026;;4.5;Em Atendimento
+25;Chamado 25 - Impressora;Impressora;Problema reportado no impressora.;Solicitante;03/06/2026 10:00:00;Administrador;06/06/2026;;0.5;Em Atendimento
+26;Chamado 26 - Internet/Rede;Internet/Rede;Problema reportado no internet/rede.;Solicitante;03/06/2026 12:00:00;Administrador;06/06/2026;Solução aplicada ao chamado 26;1.5;Finalizado
+27;Chamado 27 - Computador/Notebook;Computador/Notebook;Problema reportado no computador/notebook.;Solicitante;03/06/2026 14:00:00;Administrador;06/06/2026;Solução aplicada ao chamado 27;2.5;Finalizado
+28;Chamado 28 - Outro;Outro;Problema reportado no outro.;Solicitante;03/06/2026 16:00:00;Administrador;06/06/2026;Solução aplicada ao chamado 28;3.5;Finalizado
+29;Chamado 29 - Sistema de Estoque;Sistema de Estoque;Problema reportado no sistema de estoque.;Solicitante;03/06/2026 18:00:00;Administrador;06/06/2026;Solução aplicada ao chamado 29;4.5;Finalizado
+30;Chamado 30 - Sistema Financeiro;Sistema Financeiro;Problema reportado no sistema financeiro.;Solicitante;03/06/2026 20:00:00;Administrador;06/06/2026;Solução aplicada ao chamado 30;0.5;Finalizado
+31;Chamado 31 - E-mail Corporativo;E-mail Corporativo;Problema reportado no e-mail corporativo.;Solicitante;03/06/2026 22:00:00;Administrador;06/06/2026;Solução aplicada ao chamado 31;1.5;Finalizado
+32;Chamado 32 - Impressora;Impressora;Problema reportado no impressora.;Solicitante;04/06/2026 00:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 32;2.5;Finalizado
+33;Chamado 33 - Internet/Rede;Internet/Rede;Problema reportado no internet/rede.;Solicitante;04/06/2026 02:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 33;3.5;Finalizado
+34;Chamado 34 - Computador/Notebook;Computador/Notebook;Problema reportado no computador/notebook.;Solicitante;04/06/2026 04:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 34;4.5;Finalizado
+35;Chamado 35 - Outro;Outro;Problema reportado no outro.;Solicitante;04/06/2026 06:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 35;0.5;Finalizado
+36;Chamado 36 - Sistema de Estoque;Sistema de Estoque;Problema reportado no sistema de estoque.;Solicitante;04/06/2026 08:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 36;1.5;Finalizado
+37;Chamado 37 - Sistema Financeiro;Sistema Financeiro;Problema reportado no sistema financeiro.;Solicitante;04/06/2026 10:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 37;2.5;Finalizado
+38;Chamado 38 - E-mail Corporativo;E-mail Corporativo;Problema reportado no e-mail corporativo.;Solicitante;04/06/2026 12:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 38;3.5;Finalizado
+39;Chamado 39 - Impressora;Impressora;Problema reportado no impressora.;Solicitante;04/06/2026 14:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 39;4.5;Finalizado
+40;Chamado 40 - Internet/Rede;Internet/Rede;Problema reportado no internet/rede.;Solicitante;04/06/2026 16:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 40;0.5;Finalizado
+41;Chamado 41 - Computador/Notebook;Computador/Notebook;Problema reportado no computador/notebook.;Solicitante;04/06/2026 18:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 41;1.5;Finalizado
+42;Chamado 42 - Outro;Outro;Problema reportado no outro.;Solicitante;04/06/2026 20:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 42;2.5;Finalizado
+43;Chamado 43 - Sistema de Estoque;Sistema de Estoque;Problema reportado no sistema de estoque.;Solicitante;04/06/2026 22:00:00;Administrador;07/06/2026;Solução aplicada ao chamado 43;3.5;Finalizado
+44;Chamado 44 - Sistema Financeiro;Sistema Financeiro;Problema reportado no sistema financeiro.;Solicitante;05/06/2026 00:00:00;Administrador;08/06/2026;Solução aplicada ao chamado 44;4.5;Finalizado
+45;Chamado 45 - E-mail Corporativo;E-mail Corporativo;Problema reportado no e-mail corporativo.;Solicitante;05/06/2026 02:00:00;Administrador;08/06/2026;Solução aplicada ao chamado 45;0.5;Finalizado
+46;Chamado 46 - Impressora;Impressora;Problema reportado no impressora.;Solicitante;05/06/2026 04:00:00;;;;0.0;Cancelado
+47;Chamado 47 - Internet/Rede;Internet/Rede;Problema reportado no internet/rede.;Solicitante;05/06/2026 06:00:00;;;;0.0;Cancelado
+48;Chamado 48 - Computador/Notebook;Computador/Notebook;Problema reportado no computador/notebook.;Solicitante;05/06/2026 08:00:00;;;;0.0;Cancelado
+49;Chamado 49 - Outro;Outro;Problema reportado no outro.;Solicitante;05/06/2026 10:00:00;;;;0.0;Cancelado
+50;Chamado 50 - Sistema de Estoque;Sistema de Estoque;Problema reportado no sistema de estoque.;Solicitante;05/06/2026 12:00:00;;;;0.0;Cancelado

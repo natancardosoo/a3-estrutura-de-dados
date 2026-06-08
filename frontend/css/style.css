@@ -1028,3 +1028,8 @@ select.form-input { cursor: pointer; }
   width: 220px;
   flex: none;
 }
+
+.filtro-id {
+  flex: none;
+  width: 130px;
+}

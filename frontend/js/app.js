@@ -89,6 +89,25 @@ document.getElementById('admin-filtro-status').addEventListener('change', () => 
   UI.popularTabelaAdmin(chamadosCache, abrirModalChamado);
 });
 
+document.getElementById('admin-filtro-id').addEventListener('input', buscarChamadoAdminPorIdNaTabela);
+
+function buscarChamadoAdminPorIdNaTabela() {
+  const id = document.getElementById('admin-filtro-id').value.trim();
+
+  if (!id) {
+    UI.popularTabelaAdmin(chamadosCache, abrirModalChamado);
+    return;
+  }
+
+  Api.buscarChamado(id)
+      .then(chamado => {
+        UI.popularTabelaAdmin([chamado], abrirModalChamado);
+      })
+      .catch(() => {
+        UI.popularTabelaAdmin([], abrirModalChamado);
+      });
+}
+
 // ═══════════════════════════════════════════════════════════════════════════
 // SOLICITANTE — ABAS
 // ═══════════════════════════════════════════════════════════════════════════

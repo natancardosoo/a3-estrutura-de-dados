@@ -1,3 +1,4 @@
 1;08/06/2026 12:38:14;Solicitante;Chamado criado com status Aberto
 2;08/06/2026 13:00:41;Solicitante;Chamado criado com status Aberto
 3;08/06/2026 13:00:47;Solicitante;Chamado criado com status Aberto
+4;08/06/2026 13:54:04;Solicitante;Chamado criado com status Aberto
