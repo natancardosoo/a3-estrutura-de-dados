@@ -5,7 +5,6 @@ Projeto acadêmico desenvolvido em Java para simular o atendimento de chamados d
 ---
 
 ## Pré-requisitos
-
 - Java JDK 17 ou superior instalado
 
 ---
@@ -19,33 +18,17 @@ Projeto acadêmico desenvolvido em Java para simular o atendimento de chamados d
 
 ---
 
-## Opção 1 — Aplicação Desktop (Java Swing)
-
-Interface gráfica nativa em Java, sem necessidade de navegador.
-
-```bash
-java -jar ProjetoChamadosTI_atualizado.jar
-```
-
----
-
-## Opção 2 — Interface Web (Frontend + Backend HTTP)
-
-Interface web moderna rodando no navegador, com backend Java embutido.
-
 ### Como rodar
 
 **Passo 1 — Iniciar o servidor**
 
-Abra o PowerShell e cole:
+Na pasta raíz do projeto, abra o CMD e insira:
 
 ```powershell
-Start-Process "c:\Users\PICHAU\meu-projeto-a3\a3-estrutura-de-dados\backend\rodar.bat"
+backend\rodar.bat
 ```
 
 Ou simplesmente dê **duplo clique** no arquivo `backend/rodar.bat` pelo Explorador de Arquivos do Windows.
-
-> ⚠️ Não rode `rodar.bat` diretamente no PowerShell — use o `Start-Process` acima ou o duplo clique.
 
 **Passo 2 — Aguardar o servidor subir**
 
@@ -64,41 +47,6 @@ Use `admin / admin` ou `solicitante / solicitante`.
 
 > Para parar o servidor, feche a janela CMD ou pressione `Ctrl+C` nela.
 > O servidor usa apenas o JDK padrão (`com.sun.net.httpserver`), sem dependências externas.
-
----
-
-## Estrutura do projeto
-
-```
-a3-estrutura-de-dados/
-├── src/                        # Código-fonte Java (Swing + lógica)
-│   └── br/com/faculdade/chamados/
-│       ├── model/              # Chamado, Usuario, Historico
-│       ├── estrutura/          # Fila, Pilha, Lista Ligada, Árvore Binária
-│       ├── service/            # ChamadoService, ArquivoService
-│       └── ui/                 # Telas Swing (Login, Admin, Solicitante)
-├── backend/                    # Servidor HTTP Java (API REST)
-│   ├── rodar.bat               # Compila e inicia o servidor
-│   └── br/com/faculdade/chamados/server/
-│       ├── ChamadoServer.java  # Servidor principal (porta 8080)
-│       ├── LoginHandler.java
-│       ├── ChamadosHandler.java
-│       ├── HistoricoHandler.java
-│       └── AplicativosHandler.java
-├── frontend/                   # Interface web
-│   ├── index.html
-│   ├── css/style.css
-│   └── js/
-│       ├── api.js              # Comunicação com o backend
-│       ├── ui.js               # Manipulação de tela
-│       └── app.js              # Lógica principal
-├── data/                       # Dados persistidos em arquivos .txt
-│   ├── chamados.txt
-│   ├── usuarios.txt
-│   ├── historicos.txt
-│   └── aplicativos.txt
-└── ProjetoChamadosTI_atualizado.jar
-```
 
 ---
 

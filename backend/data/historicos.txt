@@ -1,0 +1,2 @@
+1;07/06/2026 22:07:24;Solicitante;Chamado criado com status Aberto
+1;07/06/2026 22:07:57;Solicitante;Chamado cancelado pelo usuário
