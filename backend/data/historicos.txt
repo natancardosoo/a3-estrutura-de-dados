@@ -1,4 +1,346 @@
-1;08/06/2026 12:38:14;Solicitante;Chamado criado com status Aberto
-2;08/06/2026 13:00:41;Solicitante;Chamado criado com status Aberto
-3;08/06/2026 13:00:47;Solicitante;Chamado criado com status Aberto
-4;08/06/2026 13:54:04;Solicitante;Chamado criado com status Aberto
+1;01/06/2026 10:00:00;Solicitante;Chamado criado com status Aberto
+1;01/06/2026 10:20:00;Administrador;Prioridade do chamado revisada
+1;01/06/2026 10:55:00;Administrador;Triagem inicial realizada
+1;01/06/2026 11:30:00;Administrador;Validacao parcial realizada
+2;01/06/2026 12:00:00;Solicitante;Chamado criado com status Aberto
+2;01/06/2026 12:20:00;Administrador;Informacoes complementares registradas
+2;01/06/2026 12:55:00;Administrador;Informacoes complementares registradas
+3;01/06/2026 14:00:00;Solicitante;Chamado criado com status Aberto
+3;01/06/2026 14:20:00;Administrador;Validacao parcial realizada
+4;01/06/2026 16:00:00;Solicitante;Chamado criado com status Aberto
+4;01/06/2026 16:20:00;Administrador;Prazo previsto atualizado
+5;01/06/2026 18:00:00;Solicitante;Chamado criado com status Aberto
+5;01/06/2026 18:20:00;Administrador;Chamado reavaliado pela equipe tecnica
+5;01/06/2026 18:55:00;Administrador;Dados do atendimento atualizados
+5;01/06/2026 19:30:00;Administrador;Prioridade do chamado revisada
+6;01/06/2026 20:00:00;Solicitante;Chamado criado com status Aberto
+6;01/06/2026 20:20:00;Administrador;Evidencias anexadas ao atendimento
+6;01/06/2026 20:55:00;Administrador;Triagem inicial realizada
+6;01/06/2026 21:30:00;Administrador;Triagem inicial realizada
+7;01/06/2026 22:00:00;Solicitante;Chamado criado com status Aberto
+7;01/06/2026 22:20:00;Administrador;Informacoes complementares registradas
+8;02/06/2026 00:00:00;Solicitante;Chamado criado com status Aberto
+8;02/06/2026 00:20:00;Administrador;Dados do atendimento atualizados
+9;02/06/2026 02:00:00;Solicitante;Chamado criado com status Aberto
+9;02/06/2026 02:20:00;Administrador;Triagem inicial realizada
+9;02/06/2026 02:55:00;Administrador;Dados do atendimento atualizados
+9;02/06/2026 03:30:00;Administrador;Informacoes complementares registradas
+10;02/06/2026 04:00:00;Solicitante;Chamado criado com status Aberto
+10;02/06/2026 04:20:00;Administrador;Prazo previsto atualizado
+10;02/06/2026 04:55:00;Administrador;Validacao parcial realizada
+10;02/06/2026 05:30:00;Administrador;Dados do atendimento atualizados
+11;02/06/2026 06:00:00;Solicitante;Chamado criado com status Aberto
+11;02/06/2026 06:20:00;Administrador;Informacoes complementares registradas
+11;02/06/2026 06:55:00;Administrador;Encaminhado para verificacao tecnica
+12;02/06/2026 08:00:00;Solicitante;Chamado criado com status Aberto
+12;02/06/2026 08:20:00;Administrador;Analise tecnica iniciada
+12;02/06/2026 08:55:00;Administrador;Orientacao enviada ao solicitante
+12;02/06/2026 09:30:00;Administrador;Retorno do solicitante registrado
+13;02/06/2026 10:00:00;Solicitante;Chamado criado com status Aberto
+13;02/06/2026 10:20:00;Administrador;Orientacao enviada ao solicitante
+14;02/06/2026 12:00:00;Solicitante;Chamado criado com status Aberto
+14;02/06/2026 12:20:00;Administrador;Validacao parcial realizada
+15;02/06/2026 14:00:00;Solicitante;Chamado criado com status Aberto
+15;02/06/2026 14:20:00;Administrador;Teste de reproducao do problema realizado
+15;02/06/2026 14:55:00;Administrador;Analise tecnica iniciada
+16;02/06/2026 16:00:00;Solicitante;Chamado criado com status Aberto
+16;02/06/2026 16:15:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+16;02/06/2026 16:45:00;Administrador;Informacoes complementares registradas
+16;02/06/2026 17:25:00;Administrador;Orientacao enviada ao solicitante
+16;02/06/2026 18:05:00;Administrador;Teste de reproducao do problema realizado
+16;02/06/2026 18:45:00;Administrador;Prioridade do chamado revisada
+17;02/06/2026 18:00:00;Solicitante;Chamado criado com status Aberto
+17;02/06/2026 18:15:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+17;02/06/2026 18:45:00;Administrador;Evidencias anexadas ao atendimento
+17;02/06/2026 19:25:00;Administrador;Prioridade do chamado revisada
+17;02/06/2026 20:05:00;Administrador;Teste de reproducao do problema realizado
+18;02/06/2026 20:00:00;Solicitante;Chamado criado com status Aberto
+18;02/06/2026 20:15:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+18;02/06/2026 20:45:00;Administrador;Acompanhamento registrado pelo administrador
+18;02/06/2026 21:25:00;Administrador;Analise tecnica iniciada
+18;02/06/2026 22:05:00;Administrador;Orientacao enviada ao solicitante
+18;02/06/2026 22:45:00;Administrador;Triagem inicial realizada
+18;02/06/2026 23:25:00;Administrador;Validacao parcial realizada
+19;02/06/2026 22:00:00;Solicitante;Chamado criado com status Aberto
+19;02/06/2026 22:15:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+19;02/06/2026 22:45:00;Administrador;Dados do atendimento atualizados
+19;02/06/2026 23:25:00;Administrador;Prioridade do chamado revisada
+19;03/06/2026 00:05:00;Administrador;Chamado reavaliado pela equipe tecnica
+19;03/06/2026 00:45:00;Administrador;Evidencias anexadas ao atendimento
+19;03/06/2026 01:25:00;Administrador;Prioridade do chamado revisada
+19;03/06/2026 02:05:00;Administrador;Dados do atendimento atualizados
+20;03/06/2026 00:00:00;Solicitante;Chamado criado com status Aberto
+20;03/06/2026 00:15:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+20;03/06/2026 00:45:00;Administrador;Retorno do solicitante registrado
+20;03/06/2026 01:25:00;Administrador;Prazo previsto atualizado
+20;03/06/2026 02:05:00;Administrador;Acompanhamento registrado pelo administrador
+20;03/06/2026 02:45:00;Administrador;Chamado reavaliado pela equipe tecnica
+20;03/06/2026 03:25:00;Administrador;Retorno do solicitante registrado
+21;03/06/2026 02:00:00;Solicitante;Chamado criado com status Aberto
+21;03/06/2026 02:15:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+21;03/06/2026 02:45:00;Administrador;Acompanhamento registrado pelo administrador
+21;03/06/2026 03:25:00;Administrador;Informacoes complementares registradas
+21;03/06/2026 04:05:00;Administrador;Validacao parcial realizada
+21;03/06/2026 04:45:00;Administrador;Prioridade do chamado revisada
+21;03/06/2026 05:25:00;Administrador;Triagem inicial realizada
+22;03/06/2026 04:00:00;Solicitante;Chamado criado com status Aberto
+22;03/06/2026 04:15:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+22;03/06/2026 04:45:00;Administrador;Orientacao enviada ao solicitante
+22;03/06/2026 05:25:00;Administrador;Analise tecnica iniciada
+22;03/06/2026 06:05:00;Administrador;Prioridade do chamado revisada
+22;03/06/2026 06:45:00;Administrador;Retorno do solicitante registrado
+23;03/06/2026 06:00:00;Solicitante;Chamado criado com status Aberto
+23;03/06/2026 06:15:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+23;03/06/2026 06:45:00;Administrador;Retorno do solicitante registrado
+23;03/06/2026 07:25:00;Administrador;Prioridade do chamado revisada
+23;03/06/2026 08:05:00;Administrador;Evidencias anexadas ao atendimento
+23;03/06/2026 08:45:00;Administrador;Analise tecnica iniciada
+24;03/06/2026 08:00:00;Solicitante;Chamado criado com status Aberto
+24;03/06/2026 08:15:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+24;03/06/2026 08:45:00;Administrador;Prazo previsto atualizado
+24;03/06/2026 09:25:00;Administrador;Retorno do solicitante registrado
+24;03/06/2026 10:05:00;Administrador;Teste de reproducao do problema realizado
+24;03/06/2026 10:45:00;Administrador;Solicitante contatado para mais detalhes
+24;03/06/2026 11:25:00;Administrador;Teste de reproducao do problema realizado
+24;03/06/2026 12:05:00;Administrador;Teste de reproducao do problema realizado
+25;03/06/2026 10:00:00;Solicitante;Chamado criado com status Aberto
+25;03/06/2026 10:15:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+25;03/06/2026 10:45:00;Administrador;Prazo previsto atualizado
+25;03/06/2026 11:25:00;Administrador;Analise tecnica iniciada
+25;03/06/2026 12:05:00;Administrador;Validacao parcial realizada
+25;03/06/2026 12:45:00;Administrador;Chamado reavaliado pela equipe tecnica
+26;03/06/2026 12:00:00;Solicitante;Chamado criado com status Aberto
+26;03/06/2026 12:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+26;03/06/2026 12:35:00;Administrador;Acompanhamento registrado pelo administrador
+26;03/06/2026 13:10:00;Administrador;Prazo previsto atualizado
+26;03/06/2026 13:45:00;Solicitante;Solicitante contatado para mais detalhes
+26;03/06/2026 14:20:00;Administrador;Dados do atendimento atualizados
+26;03/06/2026 17:10:00;Administrador;Solucao validada com o solicitante
+26;03/06/2026 17:35:00;Administrador;Procedimento corretivo aplicado
+26;03/06/2026 18:00:00;Administrador;Chamado finalizado
+27;03/06/2026 14:00:00;Solicitante;Chamado criado com status Aberto
+27;03/06/2026 14:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+27;03/06/2026 14:35:00;Administrador;Solicitante contatado para mais detalhes
+27;03/06/2026 15:10:00;Administrador;Encaminhado para verificacao tecnica
+27;03/06/2026 15:45:00;Solicitante;Evidencias anexadas ao atendimento
+27;03/06/2026 16:20:00;Administrador;Analise tecnica iniciada
+27;03/06/2026 16:55:00;Administrador;Chamado reavaliado pela equipe tecnica
+27;03/06/2026 19:10:00;Administrador;Solucao validada com o solicitante
+27;03/06/2026 19:35:00;Administrador;Procedimento corretivo aplicado
+27;03/06/2026 20:00:00;Administrador;Chamado finalizado
+28;03/06/2026 16:00:00;Solicitante;Chamado criado com status Aberto
+28;03/06/2026 16:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+28;03/06/2026 16:35:00;Administrador;Informacoes complementares registradas
+28;03/06/2026 17:10:00;Administrador;Prazo previsto atualizado
+28;03/06/2026 17:45:00;Solicitante;Teste de reproducao do problema realizado
+28;03/06/2026 18:20:00;Administrador;Retorno do solicitante registrado
+28;03/06/2026 18:55:00;Administrador;Orientacao enviada ao solicitante
+28;03/06/2026 19:30:00;Solicitante;Orientacao enviada ao solicitante
+28;03/06/2026 20:05:00;Administrador;Triagem inicial realizada
+28;03/06/2026 20:40:00;Administrador;Informacoes complementares registradas
+28;03/06/2026 21:10:00;Administrador;Solucao validada com o solicitante
+28;03/06/2026 21:35:00;Administrador;Procedimento corretivo aplicado
+28;03/06/2026 22:00:00;Administrador;Chamado finalizado
+29;03/06/2026 18:00:00;Solicitante;Chamado criado com status Aberto
+29;03/06/2026 18:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+29;03/06/2026 18:35:00;Administrador;Orientacao enviada ao solicitante
+29;03/06/2026 19:10:00;Administrador;Teste de reproducao do problema realizado
+29;03/06/2026 19:45:00;Solicitante;Evidencias anexadas ao atendimento
+29;03/06/2026 20:20:00;Administrador;Analise tecnica iniciada
+29;03/06/2026 23:10:00;Administrador;Solucao validada com o solicitante
+29;03/06/2026 23:35:00;Administrador;Procedimento corretivo aplicado
+29;04/06/2026 00:00:00;Administrador;Chamado finalizado
+30;03/06/2026 20:00:00;Solicitante;Chamado criado com status Aberto
+30;03/06/2026 20:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+30;03/06/2026 20:35:00;Administrador;Informacoes complementares registradas
+30;03/06/2026 21:10:00;Administrador;Chamado reavaliado pela equipe tecnica
+30;03/06/2026 21:45:00;Solicitante;Acompanhamento registrado pelo administrador
+30;03/06/2026 22:20:00;Administrador;Chamado reavaliado pela equipe tecnica
+30;04/06/2026 01:10:00;Administrador;Solucao validada com o solicitante
+30;04/06/2026 01:35:00;Administrador;Procedimento corretivo aplicado
+30;04/06/2026 02:00:00;Administrador;Chamado finalizado
+31;03/06/2026 22:00:00;Solicitante;Chamado criado com status Aberto
+31;03/06/2026 22:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+31;03/06/2026 22:35:00;Administrador;Informacoes complementares registradas
+31;03/06/2026 23:10:00;Administrador;Prazo previsto atualizado
+31;03/06/2026 23:45:00;Solicitante;Encaminhado para verificacao tecnica
+31;04/06/2026 00:20:00;Administrador;Evidencias anexadas ao atendimento
+31;04/06/2026 00:55:00;Administrador;Chamado reavaliado pela equipe tecnica
+31;04/06/2026 01:30:00;Solicitante;Chamado reavaliado pela equipe tecnica
+31;04/06/2026 03:10:00;Administrador;Solucao validada com o solicitante
+31;04/06/2026 03:35:00;Administrador;Procedimento corretivo aplicado
+31;04/06/2026 04:00:00;Administrador;Chamado finalizado
+32;04/06/2026 00:00:00;Solicitante;Chamado criado com status Aberto
+32;04/06/2026 00:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+32;04/06/2026 00:35:00;Administrador;Solicitante contatado para mais detalhes
+32;04/06/2026 01:10:00;Administrador;Analise tecnica iniciada
+32;04/06/2026 01:45:00;Solicitante;Solicitante contatado para mais detalhes
+32;04/06/2026 02:20:00;Administrador;Informacoes complementares registradas
+32;04/06/2026 02:55:00;Administrador;Validacao parcial realizada
+32;04/06/2026 03:30:00;Solicitante;Dados do atendimento atualizados
+32;04/06/2026 04:05:00;Administrador;Dados do atendimento atualizados
+32;04/06/2026 05:10:00;Administrador;Solucao validada com o solicitante
+32;04/06/2026 05:35:00;Administrador;Procedimento corretivo aplicado
+32;04/06/2026 06:00:00;Administrador;Chamado finalizado
+33;04/06/2026 02:00:00;Solicitante;Chamado criado com status Aberto
+33;04/06/2026 02:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+33;04/06/2026 02:35:00;Administrador;Validacao parcial realizada
+33;04/06/2026 03:10:00;Administrador;Acompanhamento registrado pelo administrador
+33;04/06/2026 03:45:00;Solicitante;Evidencias anexadas ao atendimento
+33;04/06/2026 04:20:00;Administrador;Chamado reavaliado pela equipe tecnica
+33;04/06/2026 04:55:00;Administrador;Acompanhamento registrado pelo administrador
+33;04/06/2026 05:30:00;Solicitante;Evidencias anexadas ao atendimento
+33;04/06/2026 07:10:00;Administrador;Solucao validada com o solicitante
+33;04/06/2026 07:35:00;Administrador;Procedimento corretivo aplicado
+33;04/06/2026 08:00:00;Administrador;Chamado finalizado
+34;04/06/2026 04:00:00;Solicitante;Chamado criado com status Aberto
+34;04/06/2026 04:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+34;04/06/2026 04:35:00;Administrador;Informacoes complementares registradas
+34;04/06/2026 05:10:00;Administrador;Solicitante contatado para mais detalhes
+34;04/06/2026 05:45:00;Solicitante;Dados do atendimento atualizados
+34;04/06/2026 06:20:00;Administrador;Encaminhado para verificacao tecnica
+34;04/06/2026 06:55:00;Administrador;Prioridade do chamado revisada
+34;04/06/2026 07:30:00;Solicitante;Orientacao enviada ao solicitante
+34;04/06/2026 09:10:00;Administrador;Solucao validada com o solicitante
+34;04/06/2026 09:35:00;Administrador;Procedimento corretivo aplicado
+34;04/06/2026 10:00:00;Administrador;Chamado finalizado
+35;04/06/2026 06:00:00;Solicitante;Chamado criado com status Aberto
+35;04/06/2026 06:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+35;04/06/2026 06:35:00;Administrador;Retorno do solicitante registrado
+35;04/06/2026 07:10:00;Administrador;Prioridade do chamado revisada
+35;04/06/2026 07:45:00;Solicitante;Solicitante contatado para mais detalhes
+35;04/06/2026 08:20:00;Administrador;Prazo previsto atualizado
+35;04/06/2026 11:10:00;Administrador;Solucao validada com o solicitante
+35;04/06/2026 11:35:00;Administrador;Procedimento corretivo aplicado
+35;04/06/2026 12:00:00;Administrador;Chamado finalizado
+36;04/06/2026 08:00:00;Solicitante;Chamado criado com status Aberto
+36;04/06/2026 08:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+36;04/06/2026 08:35:00;Administrador;Orientacao enviada ao solicitante
+36;04/06/2026 09:10:00;Administrador;Prazo previsto atualizado
+36;04/06/2026 09:45:00;Solicitante;Evidencias anexadas ao atendimento
+36;04/06/2026 10:20:00;Administrador;Acompanhamento registrado pelo administrador
+36;04/06/2026 10:55:00;Administrador;Prioridade do chamado revisada
+36;04/06/2026 13:10:00;Administrador;Solucao validada com o solicitante
+36;04/06/2026 13:35:00;Administrador;Procedimento corretivo aplicado
+36;04/06/2026 14:00:00;Administrador;Chamado finalizado
+37;04/06/2026 10:00:00;Solicitante;Chamado criado com status Aberto
+37;04/06/2026 10:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+37;04/06/2026 10:35:00;Administrador;Evidencias anexadas ao atendimento
+37;04/06/2026 11:10:00;Administrador;Acompanhamento registrado pelo administrador
+37;04/06/2026 11:45:00;Solicitante;Encaminhado para verificacao tecnica
+37;04/06/2026 12:20:00;Administrador;Dados do atendimento atualizados
+37;04/06/2026 12:55:00;Administrador;Analise tecnica iniciada
+37;04/06/2026 13:30:00;Solicitante;Dados do atendimento atualizados
+37;04/06/2026 14:05:00;Administrador;Retorno do solicitante registrado
+37;04/06/2026 15:10:00;Administrador;Solucao validada com o solicitante
+37;04/06/2026 15:35:00;Administrador;Procedimento corretivo aplicado
+37;04/06/2026 16:00:00;Administrador;Chamado finalizado
+38;04/06/2026 12:00:00;Solicitante;Chamado criado com status Aberto
+38;04/06/2026 12:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+38;04/06/2026 12:35:00;Administrador;Prazo previsto atualizado
+38;04/06/2026 13:10:00;Administrador;Validacao parcial realizada
+38;04/06/2026 13:45:00;Solicitante;Prioridade do chamado revisada
+38;04/06/2026 14:20:00;Administrador;Prazo previsto atualizado
+38;04/06/2026 17:10:00;Administrador;Solucao validada com o solicitante
+38;04/06/2026 17:35:00;Administrador;Procedimento corretivo aplicado
+38;04/06/2026 18:00:00;Administrador;Chamado finalizado
+39;04/06/2026 14:00:00;Solicitante;Chamado criado com status Aberto
+39;04/06/2026 14:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+39;04/06/2026 14:35:00;Administrador;Orientacao enviada ao solicitante
+39;04/06/2026 15:10:00;Administrador;Analise tecnica iniciada
+39;04/06/2026 15:45:00;Solicitante;Orientacao enviada ao solicitante
+39;04/06/2026 16:20:00;Administrador;Prazo previsto atualizado
+39;04/06/2026 16:55:00;Administrador;Teste de reproducao do problema realizado
+39;04/06/2026 17:30:00;Solicitante;Prioridade do chamado revisada
+39;04/06/2026 18:05:00;Administrador;Analise tecnica iniciada
+39;04/06/2026 18:40:00;Administrador;Evidencias anexadas ao atendimento
+39;04/06/2026 19:10:00;Administrador;Solucao validada com o solicitante
+39;04/06/2026 19:35:00;Administrador;Procedimento corretivo aplicado
+39;04/06/2026 20:00:00;Administrador;Chamado finalizado
+40;04/06/2026 16:00:00;Solicitante;Chamado criado com status Aberto
+40;04/06/2026 16:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+40;04/06/2026 16:35:00;Administrador;Encaminhado para verificacao tecnica
+40;04/06/2026 17:10:00;Administrador;Triagem inicial realizada
+40;04/06/2026 17:45:00;Solicitante;Validacao parcial realizada
+40;04/06/2026 18:20:00;Administrador;Chamado reavaliado pela equipe tecnica
+40;04/06/2026 18:55:00;Administrador;Validacao parcial realizada
+40;04/06/2026 21:10:00;Administrador;Solucao validada com o solicitante
+40;04/06/2026 21:35:00;Administrador;Procedimento corretivo aplicado
+40;04/06/2026 22:00:00;Administrador;Chamado finalizado
+41;04/06/2026 18:00:00;Solicitante;Chamado criado com status Aberto
+41;04/06/2026 18:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+41;04/06/2026 18:35:00;Administrador;Dados do atendimento atualizados
+41;04/06/2026 19:10:00;Administrador;Orientacao enviada ao solicitante
+41;04/06/2026 19:45:00;Solicitante;Solicitante contatado para mais detalhes
+41;04/06/2026 20:20:00;Administrador;Dados do atendimento atualizados
+41;04/06/2026 20:55:00;Administrador;Chamado reavaliado pela equipe tecnica
+41;04/06/2026 21:30:00;Solicitante;Prioridade do chamado revisada
+41;04/06/2026 23:10:00;Administrador;Solucao validada com o solicitante
+41;04/06/2026 23:35:00;Administrador;Procedimento corretivo aplicado
+41;05/06/2026 00:00:00;Administrador;Chamado finalizado
+42;04/06/2026 20:00:00;Solicitante;Chamado criado com status Aberto
+42;04/06/2026 20:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+42;04/06/2026 20:35:00;Administrador;Retorno do solicitante registrado
+42;04/06/2026 21:10:00;Administrador;Prazo previsto atualizado
+42;04/06/2026 21:45:00;Solicitante;Dados do atendimento atualizados
+42;04/06/2026 22:20:00;Administrador;Acompanhamento registrado pelo administrador
+42;04/06/2026 22:55:00;Administrador;Informacoes complementares registradas
+42;04/06/2026 23:30:00;Solicitante;Solicitante contatado para mais detalhes
+42;05/06/2026 01:10:00;Administrador;Solucao validada com o solicitante
+42;05/06/2026 01:35:00;Administrador;Procedimento corretivo aplicado
+42;05/06/2026 02:00:00;Administrador;Chamado finalizado
+43;04/06/2026 22:00:00;Solicitante;Chamado criado com status Aberto
+43;04/06/2026 22:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+43;04/06/2026 22:35:00;Administrador;Orientacao enviada ao solicitante
+43;04/06/2026 23:10:00;Administrador;Solicitante contatado para mais detalhes
+43;04/06/2026 23:45:00;Solicitante;Dados do atendimento atualizados
+43;05/06/2026 00:20:00;Administrador;Orientacao enviada ao solicitante
+43;05/06/2026 00:55:00;Administrador;Chamado reavaliado pela equipe tecnica
+43;05/06/2026 01:30:00;Solicitante;Dados do atendimento atualizados
+43;05/06/2026 03:10:00;Administrador;Solucao validada com o solicitante
+43;05/06/2026 03:35:00;Administrador;Procedimento corretivo aplicado
+43;05/06/2026 04:00:00;Administrador;Chamado finalizado
+44;05/06/2026 00:00:00;Solicitante;Chamado criado com status Aberto
+44;05/06/2026 00:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+44;05/06/2026 00:35:00;Administrador;Acompanhamento registrado pelo administrador
+44;05/06/2026 01:10:00;Administrador;Teste de reproducao do problema realizado
+44;05/06/2026 01:45:00;Solicitante;Encaminhado para verificacao tecnica
+44;05/06/2026 02:20:00;Administrador;Triagem inicial realizada
+44;05/06/2026 05:10:00;Administrador;Solucao validada com o solicitante
+44;05/06/2026 05:35:00;Administrador;Procedimento corretivo aplicado
+44;05/06/2026 06:00:00;Administrador;Chamado finalizado
+45;05/06/2026 02:00:00;Solicitante;Chamado criado com status Aberto
+45;05/06/2026 02:10:00;Administrador;Chamado assumido. Status alterado para Em Atendimento
+45;05/06/2026 02:35:00;Administrador;Chamado reavaliado pela equipe tecnica
+45;05/06/2026 03:10:00;Administrador;Teste de reproducao do problema realizado
+45;05/06/2026 03:45:00;Solicitante;Chamado reavaliado pela equipe tecnica
+45;05/06/2026 04:20:00;Administrador;Retorno do solicitante registrado
+45;05/06/2026 07:10:00;Administrador;Solucao validada com o solicitante
+45;05/06/2026 07:35:00;Administrador;Procedimento corretivo aplicado
+45;05/06/2026 08:00:00;Administrador;Chamado finalizado
+46;05/06/2026 04:00:00;Solicitante;Chamado criado com status Aberto
+46;05/06/2026 04:20:00;Solicitante;Informacoes complementares registradas
+46;05/06/2026 04:45:00;Solicitante;Triagem inicial realizada
+46;05/06/2026 06:00:00;Solicitante;Solicitante informou que o atendimento nao e mais necessario
+46;05/06/2026 06:10:00;Solicitante;Chamado cancelado
+47;05/06/2026 06:00:00;Solicitante;Chamado criado com status Aberto
+47;05/06/2026 06:20:00;Solicitante;Chamado reavaliado pela equipe tecnica
+47;05/06/2026 08:00:00;Solicitante;Solicitante informou que o atendimento nao e mais necessario
+47;05/06/2026 08:10:00;Solicitante;Chamado cancelado
+48;05/06/2026 08:00:00;Solicitante;Chamado criado com status Aberto
+48;05/06/2026 08:20:00;Solicitante;Prioridade do chamado revisada
+48;05/06/2026 08:45:00;Solicitante;Prioridade do chamado revisada
+48;05/06/2026 09:10:00;Solicitante;Validacao parcial realizada
+48;05/06/2026 10:00:00;Solicitante;Solicitante informou que o atendimento nao e mais necessario
+48;05/06/2026 10:10:00;Solicitante;Chamado cancelado
+49;05/06/2026 10:00:00;Solicitante;Chamado criado com status Aberto
+49;05/06/2026 10:20:00;Solicitante;Retorno do solicitante registrado
+49;05/06/2026 10:45:00;Solicitante;Prioridade do chamado revisada
+49;05/06/2026 12:00:00;Solicitante;Solicitante informou que o atendimento nao e mais necessario
+49;05/06/2026 12:10:00;Solicitante;Chamado cancelado
+50;05/06/2026 12:00:00;Solicitante;Chamado criado com status Aberto
+50;05/06/2026 12:20:00;Solicitante;Orientacao enviada ao solicitante
+50;05/06/2026 12:45:00;Solicitante;Solicitante contatado para mais detalhes
+50;05/06/2026 13:10:00;Solicitante;Solicitante contatado para mais detalhes
+50;05/06/2026 14:00:00;Solicitante;Solicitante informou que o atendimento nao e mais necessario
+50;05/06/2026 14:10:00;Solicitante;Chamado cancelado
