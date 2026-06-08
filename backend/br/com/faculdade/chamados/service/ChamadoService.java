@@ -5,9 +5,7 @@ import br.com.faculdade.chamados.model.*;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class ChamadoService {
     private ArquivoService arquivoService = new ArquivoService();
@@ -54,10 +52,33 @@ public class ChamadoService {
 
     public List<String> listarAplicativos() { return arquivoService.carregarAplicativos(); }
 
-    public List<Chamado> listarTodos() { return new ArrayList<>(chamados); }
+    public Chamado[] listarTodos() {
+        return listaLigada.listar();
+    }
 
-    public List<Chamado> listarPorSolicitante(String solicitante) {
-        return chamados.stream().filter(c -> c.getSolicitante().equals(solicitante)).collect(Collectors.toList());
+    public Chamado[] listarPorSolicitante(String solicitante) {
+        Chamado[] todos = listaLigada.listar();
+
+        int quantidade = 0;
+
+        for (Chamado c : todos) {
+            if (c.getSolicitante().equals(solicitante)) {
+                quantidade++;
+            }
+        }
+
+        Chamado[] filtrados = new Chamado[quantidade];
+
+        int indice = 0;
+
+        for (Chamado c : todos) {
+            if (c.getSolicitante().equals(solicitante)) {
+                filtrados[indice] = c;
+                indice++;
+            }
+        }
+
+        return filtrados;
     }
 
     public Chamado buscarPorId(int id) { return arvore.buscar(id); }
