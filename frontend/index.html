@@ -271,14 +271,23 @@
               <h1 class="page-titulo">Meus Chamados</h1>
               <p class="page-sub">Acompanhe o status dos seus chamados</p>
             </div>
-            <button class="btn-primary btn-sm" id="btn-sol-atualizar">
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"
-                   fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
-                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
-              </svg>
-              Atualizar
-            </button>
+            <div class="busca-id-row">
+              <input
+                      type="number"
+                      class="inp-filtro busca-id-input"
+                      id="sol-busca-id"
+                      placeholder="Buscar chamado por ID"
+                      min="1"
+              />
+
+              <button class="btn-secondary btn-sm" id="btn-sol-buscar-id">
+                Buscar
+              </button>
+
+              <button class="btn-primary btn-sm" id="btn-sol-atualizar">
+                Atualizar
+              </button>
+            </div>
           </div>
 
           <div class="card-tabela">

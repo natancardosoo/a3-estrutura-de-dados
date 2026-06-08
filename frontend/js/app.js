@@ -119,6 +119,34 @@ function carregarChamadosSolicitante() {
 
 document.getElementById('btn-sol-atualizar').addEventListener('click', carregarChamadosSolicitante);
 
+document.getElementById('btn-sol-buscar-id').addEventListener('click', buscarChamadoSolicitantePorId);
+
+document.getElementById('sol-busca-id').addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    buscarChamadoSolicitantePorId();
+  }
+});
+
+function buscarChamadoSolicitantePorId() {
+  const id = document.getElementById('sol-busca-id').value.trim();
+
+  if (!id) {
+    UI.mostrarErro('ID obrigatório', 'Digite o ID do chamado que deseja buscar.');
+    return;
+  }
+
+  Api.buscarChamado(id)
+      .then(chamado => {
+        if (usuarioAtual.perfil !== 'ADMINISTRADOR' && chamado.solicitante !== usuarioAtual.nome) {
+          UI.mostrarErro('Acesso negado', 'Esse chamado não pertence ao seu usuário.');
+          return;
+        }
+
+        abrirModalChamado(chamado.id);
+      })
+      .catch(() => UI.mostrarErro('Não encontrado', 'Nenhum chamado foi encontrado com esse ID.'));
+}
+
 // ═══════════════════════════════════════════════════════════════════════════
 // SOLICITANTE — CRIAR CHAMADO
 // ═══════════════════════════════════════════════════════════════════════════

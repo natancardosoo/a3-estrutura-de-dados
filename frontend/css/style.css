@@ -1017,3 +1017,14 @@ select.form-input { cursor: pointer; }
   .stats-row { grid-template-columns: repeat(2, 1fr); }
   .header-usuario { display: none; }
 }
+
+.busca-id-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.busca-id-input {
+  width: 220px;
+  flex: none;
+}
